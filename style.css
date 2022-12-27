@@ -9,7 +9,7 @@ html {
     margin: 0;
     hight: 100%;
     
-    background-image: linear-gradient(rgb(247,247,247),rgb(235,240,240));
+    background-image: url('background.jpg')
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
