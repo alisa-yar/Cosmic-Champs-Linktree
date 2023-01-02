@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 :root {
-    --textColor: #fff;
+    --textColor: #FFFFFF;
     --font: 'Karla', sans-serif;
 }
 
@@ -30,6 +30,18 @@ body {
     min-height: 100%;
 }
 
+/*@keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+}*/
+
 .description, .source{
     color: var(--textColor);
     text-align: center;
@@ -51,7 +63,6 @@ body {
     display: block;
     margin: 35px auto 20px;
     border-radius: 50%;
-    border: var(3px) solid var(--textColor);
     -webkit-tap-highlight-color: transparent;
     
 }
