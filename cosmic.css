@@ -9,7 +9,13 @@ html {
     margin: 0;
     hight: 100%;
     
-    background-image: url('background.jpg');
+    /*background-image: url('background.jpg');*/
+    
+    background: #167C9B;
+    background: -webkit-linear-gradient(bottom, #167C9B, #0C172B);
+    background: -moz-linear-gradient(bottom, #167C9B, #0C172B);
+    background: linear-gradient(to top, #167C9B, #0C172B);
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
