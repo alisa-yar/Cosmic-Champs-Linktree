@@ -77,15 +77,14 @@ body {
     position: relative;
     background-color: transparent;
     color: var(--textColor);
-    border: solid var(--textColor) 2px;
+    border: 1px;
+    border-color: var(--textColor);
     border-radius: 10px;
     font-size: 1rem;
     text-align: center;
     display: block;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px; 
+    margin-bottom: 20px;
+    padding: 17px; 
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
