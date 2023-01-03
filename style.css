@@ -8,6 +8,9 @@
 html {
     margin: 0;
     hight: 100%;
+    width:100%;
+    overflow-x: hidden;
+
     
     background-color: #167C9B;
     background: -webkit-linear-gradient(bottom, #167C9B, #0C172B);
@@ -26,8 +29,6 @@ html {
     font-family: var(--font);
     color: var(--textColor);
     scroll-behavior: smooth;
-    
-    overflow-x: hidden;
 }
 
 body {
