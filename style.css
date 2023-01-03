@@ -36,18 +36,6 @@ body {
     overflow: hidden;
 }
 
-/*@keyframes gradient {
-      0% {
-          background-position: 0% 50%;
-      }
-      50% {
-          background-position: 100% 50%;
-      }
-      100% {
-          background-position: 0% 50%;
-      }
-}*/
-
 .description, .source{
     color: var(--textColor);
     text-align: center;
@@ -67,7 +55,7 @@ body {
     height: 130px;
     display: block;
     margin: 35px auto 20px;
-    border-radius: 50%;
+    border-radius: 10px;
     -webkit-tap-highlight-color: transparent;
     
 }
@@ -100,9 +88,6 @@ body {
     font-size: 1rem;
     text-align: center;
     display: block;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
     padding: 10px; 
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
