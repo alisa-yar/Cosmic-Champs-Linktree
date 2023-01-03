@@ -77,8 +77,7 @@ body {
     position: relative;
     background-color: transparent;
     color: var(--textColor);
-    border: 1px;
-    border-color: var(--textColor);
+    border: solid var(--textColor) 2px;
     border-radius: 10px;
     font-size: 1rem;
     text-align: center;
