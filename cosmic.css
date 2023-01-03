@@ -71,7 +71,7 @@ body {
 }
 
 .links {
-    width: 100%;
+    width: auto;
     display: block;
     margin: 27px auto;
 }
