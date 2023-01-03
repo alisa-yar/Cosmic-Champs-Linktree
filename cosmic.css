@@ -6,11 +6,8 @@
 }
 
 html {
-    margin: 0px;
-    padding: 0;
+    margin: 0;
     hight: 100%;
-    
-    /*background-image: url('background.jpg');*/
     
     background: #167C9B;
     background: -webkit-linear-gradient(bottom, #167C9B, #0C172B);
@@ -31,7 +28,7 @@ html {
 }
 
 body {
-    margin: 0px;
+    margin: 0;
     padding: 0;
     height: fit-content;
     min-height: 100%;
@@ -56,8 +53,8 @@ body {
     width: 130px;
     height: 130px;
     display: block;
-    margin: 35px auto 25px;
-    border-radius: 0%;
+    margin: 35px auto 20px;
+    border-radius: 50%;
     -webkit-tap-highlight-color: transparent;  
 }
 
