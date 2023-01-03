@@ -6,7 +6,8 @@
 }
 
 html {
-    margin: 0;
+    margin: 0px;
+    padding: 0;
     hight: 100%;
     
     /*background-image: url('background.jpg');*/
@@ -30,23 +31,11 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     height: fit-content;
     min-height: 100%;
 }
-
-/*@keyframes gradient {
-      0% {
-          background-position: 0% 50%;
-      }
-      50% {
-          background-position: 100% 50%;
-      }
-      100% {
-          background-position: 0% 50%;
-      }
-}*/
 
 .description, .source{
     color: var(--textColor);
@@ -85,7 +74,6 @@ body {
 }
 
 .links {
-    max-width: 675px;
     width: auto;
     display: block;
     margin: 27px auto;
