@@ -33,14 +33,26 @@ body {
     padding: 0;
     height: fit-content;
     min-height: 100%;
-    overflow: hidden;
 }
+
+/*@keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+}*/
 
 .description, .source{
     color: var(--textColor);
     text-align: center;
     margin: 27px auto;
     margin-top: 10px;
+    width: 90%;
     max-width: 500px;
 }
 
@@ -55,7 +67,7 @@ body {
     height: 130px;
     display: block;
     margin: 35px auto 20px;
-    border-radius: 10px;
+    border-radius: 50%;
     -webkit-tap-highlight-color: transparent;
     
 }
@@ -72,8 +84,8 @@ body {
     text-decoration: none;
 }
 
-#links{
-    max-width: 500px;
+.links {
+    max-width: 675px;
     width: auto;
     display: block;
     margin: 27px auto;
@@ -88,6 +100,9 @@ body {
     font-size: 1rem;
     text-align: center;
     display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     padding: 10px; 
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
